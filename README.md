@@ -4,7 +4,7 @@ googlesearch is a Python library for searching Google, easily. googlesearch uses
 ## Installation
 To install, run the following command:
 ```bash
-python3 -m pip install googlesearch-python
+ pip install googlesearch-python-extended==2020.0.2
 ```
 
 ## usage
