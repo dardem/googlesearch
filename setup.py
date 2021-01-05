@@ -9,12 +9,12 @@ with open("requirements.txt") as fh:
 setup(
     name="googlesearch-python-extended",
     version="2020.0.2",
-    author="Nishant Vikramaditya",
-    author_email="junk4Nv7@gmail.com",
+    author="Daryna Dementieva, Nishant Vikramaditya",
+    author_email="dardem96@gmail.com",
     description="A Python library for scraping the Google search engine.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Nv7-GitHub/googlesearch",
+    url="https://github.com/dardem/googlesearch",
     packages=["googlesearch"],
     classifiers=[
         "Programming Language :: Python :: 3",
