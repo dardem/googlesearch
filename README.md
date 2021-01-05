@@ -20,12 +20,13 @@ googlesearch supports a few additional options. By default, googlesearch returns
 from googlesearch import search
 search("Google", num_results=100)
 ```
-In addition, you can change the language google searches in. For example, to get results in French run the following program:
+You can change the language google searches in. For example, to get results in French run the following program:
 ```python
 from googlesearch import search
 search("Google", lang="fr")
 ```
-## googlesearch.search
+Also, you can specify the date range of search: from which date and to which date you want your returned results be published (or only one of this borders):
 ```python
-googlesearch.search(str: term, int: num_results=10, str: lang="en") -> list
+from googlesearch import search
+search("Google", date_to='1/1/2018', date_from='1/1/2019')
 ```
