@@ -7,7 +7,7 @@ with open("requirements.txt") as fh:
     requirements = fh.read().split("\n")
 
 setup(
-    name="googlesearch-python",
+    name="googlesearch-python-extended",
     version="2020.0.2",
     author="Nishant Vikramaditya",
     author_email="junk4Nv7@gmail.com",
